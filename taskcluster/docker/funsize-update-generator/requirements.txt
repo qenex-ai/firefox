@@ -339,9 +339,9 @@ github3-py==3.2.0 \
     --hash=sha256:09b72be1497d346b0968cde8360a0d6af79dc206d0149a63cd3ec86c65c377cc \
     --hash=sha256:a9016e40609c6f5cb9954dd188d08257dafd09c4da8c0e830a033fca00054b0d
     # via scriptworker
-idna==3.4 \
-    --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4 \
-    --hash=sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2
+idna==3.15 \
+    --hash=sha256:048adeaf8c2d788c40fee287673ccaa74c24ffd8dcf09ffa555a2fbb59f10ac8 \
+    --hash=sha256:ca962446ea538f7092a95e057da437618e886f4d349216d2b1e294abfdb65fdc
     # via
     #   requests
     #   yarl
@@ -458,7 +458,9 @@ pycparser==2.21 \
 pyjwt[crypto]==2.6.0 \
     --hash=sha256:69285c7e31fc44f68a1feb309e948e0df53259d579295e6cfe2b1792329f05fd \
     --hash=sha256:d83c3d892a77bbb74d3e1a2cfa90afaadb60945205d1095d9221f04466f64c14
-    # via github3-py
+    # via
+    #   github3-py
+    #   pyjwt
 pyrsistent==0.19.3 \
     --hash=sha256:016ad1afadf318eb7911baa24b049909f7f3bb2c5b1ed7b6a8f21db21ea3faa8 \
     --hash=sha256:1a2994773706bbb4995c31a97bc94f1418314923bd1048c6d964837040376440 \
