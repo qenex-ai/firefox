@@ -7,7 +7,7 @@
   "devDependencies": {
     "@eslint/json": "1.0.1",
     "@microsoft/eslint-plugin-sdl": "1.1.0",
-    "@stylistic/stylelint-plugin": "3.1.1",
+    "@stylistic/stylelint-plugin": "5.3.1",
     "@types/gecko": "file:tools/@types",
     "eslint": "9.39.1",
     "eslint-config-prettier": "10.1.8",
